@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi_trad
-  name: 五筆·簡入繁出
+  name: 五筆·簡入繁出a
   version: "0.7"
   author:
     - 發明人 王永民先生
