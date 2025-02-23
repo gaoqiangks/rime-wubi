@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi_pinyin
-  name: "五笔·拼音"
+  name: "五笔·拼音_98_gaoqiang"
   version: "0.9"
   author:
     - 發明人 王永民先生
@@ -50,7 +50,7 @@ speller:
   #max_code_length: 4  # 四碼頂字上屏
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi98_gaoqiang
   prism: wubi_pinyin
   enable_charset_filter: true
   enable_sentence: true

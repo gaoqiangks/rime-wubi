@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 schema:
-  schema_id: wubi86
+  schema_id: wubi98_gaoqiang
   name: "五笔86"
   version: "0.21"
   author:
@@ -51,7 +51,7 @@ speller:
   #max_code_length: 4
 
 translator:
-  dictionary: wubi86
+  dictionary: wubi98_gaoqiang
   enable_charset_filter: true
   enable_sentence: true
   enable_encoder: true
