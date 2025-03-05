@@ -37,7 +37,7 @@ encoder:
     - length_in_range: [4, 10]
       formula: "AaBaCaZa"
 ...
-
+#必须用tab分隔， 不能用空格。
 工	a	990000
 式	aa	990000
 工	aaa	990000
