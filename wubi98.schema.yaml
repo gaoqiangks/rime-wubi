@@ -48,6 +48,8 @@ engine:
 
 speller:
   delimiter: " ;'"
+  max_code_length: 4                    # 四码上屏
+  auto_select: true  
   #max_code_length: 4
 
 translator:
