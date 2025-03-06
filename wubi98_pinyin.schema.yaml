@@ -4,14 +4,15 @@
 schema:
   schema_id: wubi98_pinyin
   name: "五笔98·拼音"
-  version: "0.9"
+  version: "0.1"
   author:
     - 發明人 王永民先生
   description: |
-    五筆字型86版＋漢語拼音混合輸入。
-    碼表源自 ibus-table
+    五笔98字型+白霜拼音混合输入法
   dependencies:
     - rime_frost
+  icon: zh.ico
+  ascii_icon: en.ico
 
 switches:
   - name: ascii_mode
@@ -49,6 +50,13 @@ speller:
   delimiter: " ;'"
   #max_code_length: 4  # 四碼頂字上屏
 
+ascii_composer:
+  switch_key:
+    Shift_L: noop # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
+
 translator:
   dictionary: wubi98
   prism: wubi98_pinyin
@@ -84,3 +92,6 @@ recognizer:
   import_preset: default
   patterns:
     reverse_lookup: "`[a-z]*'?$"
+
+style:
+  color_scheme: google

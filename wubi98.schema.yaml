@@ -3,7 +3,7 @@
 
 schema:
   schema_id: wubi98
-  name: "五笔86"
+  name: "五笔98"
   version: "0.21"
   author:
     - 發明人 王永民先生
@@ -48,7 +48,7 @@ engine:
 
 speller:
   delimiter: " ;'"
-  max_code_length: 4                    # 四码上屏
+  # max_code_length: 4                    # 四码上屏
   auto_select: true  
   #max_code_length: 4
 
