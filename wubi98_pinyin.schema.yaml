@@ -11,12 +11,12 @@ schema:
     五笔98字型+白霜拼音混合输入法
   dependencies:
     - rime_frost
-  icon: zh.ico
-  ascii_icon: en.ico
+  # icon: zh.ico
+  # ascii_icon: en.ico
 
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
