@@ -1,5 +1,6 @@
 # Rime schema settings
 # encoding: utf-8
+# 安装的时候， 勿必先安装白霜拼音， 等白霜拼音可以使用后再安装wubi98_pinyin
 
 schema:
   schema_id: wubi98_pinyin
